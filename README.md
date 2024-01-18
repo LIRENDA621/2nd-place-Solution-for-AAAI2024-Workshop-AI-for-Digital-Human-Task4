@@ -17,13 +17,6 @@ Create conda environment:
 pip install -r requirements.txt
 ```
 
-
- 
-
-## Approach
-
-![CLIP](network_arch.png)
-
 ## Usage
 
 Steps for Training and Evaluation:
@@ -51,15 +44,3 @@ Steps for Training and Evaluation:
    
    
    The script is convenient for performing ablation experiments on the test set and does not need to be used.
-
-## Model Fuse
-
-1. similarity fuse: `my_py/sim_fuse.py`
-
-2. dissimilarity fuse: `my_py/dissim_fuse.py`
-
-**In our solution, we first perform similarity fusion and dissimilarity fusion on multiple models respectively, and then perform similarity fusion on the two results.**
-
-All settings are done by the configuration dataclass at the beginning of the scripts.
-
-`download_data.py` downloads and unzips the challenge data from the provided [challenge toolkit](https://github.com/DeepSportRadar/player-reidentification-challenge).
