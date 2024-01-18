@@ -136,4 +136,5 @@ if __name__ == '__main__':
         temp_cfg.speaker_name = -1
 
     SHOW_stage1(**temp_cfg)
+    exit()
     SHOW_stage2(**temp_cfg)
