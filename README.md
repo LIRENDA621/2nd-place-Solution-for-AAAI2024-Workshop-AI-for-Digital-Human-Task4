@@ -9,7 +9,7 @@
 ## Setup environment
 **Clone the repo**:
   ```bash
-  git clone git@github.com:LIRENDA621/2nd-place-Solution-for-AAAI2024-Workshop-AI-for-Digital-Human-Task4.git
+  git clone https://github.com/LIRENDA621/2nd-place-Solution-for-AAAI2024-Workshop-AI-for-Digital-Human-Task4.git
   ```
 
 **For TalkSHOW**
