@@ -7,15 +7,32 @@
 **Please note that our code is built based on [[TalkSHOW]](https://github.com/yhw-yhw/TalkSHOW), [[SHOW]](https://github.com/yhw-yhw/SHOW), [[LSP]](https://github.com/YuanxunLu/LiveSpeechPortraits).**
 
 ## Setup environment
+**For TalkSHOW**
+The training code was tested on `Ubuntu 18.04.5 LTS` and the visualization code was test on `Windows 10`, and it requires:
+
+* Python 3.7
+* conda3 or miniconda3
+* CUDA capable GPU (one is enough)
+
+
+
+### 1. Setup environment
+
 Clone the repo:
   ```bash
-  git clone https://github.com/LIRENDA621/MMSports2023_-Player_Reidentification_Challenge.git
-  cd MMSports2023_-Player_Reidentificatio_Challenge
+  git clone https://github.com/yhw-yhw/TalkSHOW
+  cd TalkSHOW
   ```  
 Create conda environment:
 ```bash
-pip install -r requirements.txt
+conda create --name talkshow python=3.7
+conda activate talkshow
 ```
+Please install pytorch (v1.10.1).
+
+    pip install -r requirements.txt
+    
+Please install [**MPI-Mesh**](https://github.com/MPI-IS/mesh).
 
 ## Usage
 
