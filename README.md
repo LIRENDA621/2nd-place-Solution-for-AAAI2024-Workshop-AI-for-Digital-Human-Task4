@@ -6,8 +6,6 @@
 
 **Please note that our code is built based on [[TalkSHOW]](https://github.com/yhw-yhw/TalkSHOW), [[SHOW]](https://github.com/yhw-yhw/SHOW), [[LSP]](https://github.com/YuanxunLu/LiveSpeechPortraits).**
 
-Code for the paper: `Exploring Loss Function and Rank Fusion for Enhanced Person Re-identification`
-
 ## Setup environment
 Clone the repo:
   ```bash
