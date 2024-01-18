@@ -42,3 +42,20 @@ Steps for Training and Evaluation:
 
 ### Data preprocess
 
+Generate data for TalkSHOW and LSP
+
+```bash
+cd SHOW/SHOW
+sh multi_demo.sh
+```
+
+### Audio2gesture
+    
+    Train VQ-VAEs. 
+    bash my_train_body_vq.sh
+    # 2. Train PixelCNN. Please modify "Model:vq_path" in config/body_pixel.json to the path of VQ-VAEs.
+    bash my_train_body_pixel.sh
+    # 3. Train face generator.
+    bash my_train_face.sh
+
+
