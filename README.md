@@ -40,26 +40,5 @@ Environmental dependencies are complex, please refer to [[SHOW]](https://github.
 
 Steps for Training and Evaluation:
 
-1. get data: `download_data.py`
-2. create DataFrames: `preprocess_data.py`
-3. training:
-   
-   `train_our_post.py`
-   
-   The **main training script** will output two post-processing results during each verification, one is last year's championship solution, and the other is our implementation. The differences can be found in the paper.
+### Data preprocess
 
-   `train_our_post_resnet.py`
-
-   This training script facilitates the use of the ResNet model to conduct relevant experiments in the paper.
-   
-5. evaluation: `evaluate.py`
-   
-7. final predictions:
-   
-    `predict.py`
-   
-   
-   `predict_fortestset.py`
-   
-   
-   The script is convenient for performing ablation experiments on the test set and does not need to be used.
