@@ -58,7 +58,14 @@ sh multi_demo.sh
     # 3. Train face generator.
     bash my_train_face.sh
 
+    Infer(visulazation/get mesh .obj file)
+    python scripts/diversity4single_wav.py
+
 ### gesture2video
+    please note that due to the company copyright issues, I can not provide training code.
+
+    Infer
+    sh run_test_tmp.sh
     
     
 
