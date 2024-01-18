@@ -270,7 +270,7 @@ def SHOW_stage1(*args, **kwargs):
             torch.square(diff_kpts[:, :, 0]) +
             torch.square(diff_kpts[:, :, 1]))
         body_kpts_diff_sum = diff_kpts_dist.mean()
-        body_kpts_diff_sum_threshold = 0.5  # normal: 3.15; lmk_gt_outter
+        body_kpts_diff_sum_threshold = 0.0  # normal: 3.15; lmk_gt_outter
         if body_kpts_diff_sum < body_kpts_diff_sum_threshold:
             logger.warning(
                 f'body_kpts_diff_sum: {body_kpts_diff_sum} < {body_kpts_diff_sum_threshold}, skipping'
