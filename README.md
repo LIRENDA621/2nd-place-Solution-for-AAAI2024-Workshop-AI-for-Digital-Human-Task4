@@ -4,7 +4,7 @@
 
 [[Challenge]]([http://mmsports.multimedia-computing.de/mmsports2023/challenge.html](https://digitalhumanworkshop.github.io/))
 
-**Please note that our code is built based on [[TalkSHOW]]([https://github.com/DeepSportradar/2022-winners-player-reidentification-challenge/tree/master](https://github.com/yhw-yhw/TalkSHOW)), [[SHOW]](https://github.com/yhw-yhw/SHOW), [[LSP]](https://github.com/YuanxunLu/LiveSpeechPortraits).**
+**Please note that our code is built based on [[TalkSHOW]](https://github.com/yhw-yhw/TalkSHOW), [[SHOW]](https://github.com/yhw-yhw/SHOW), [[LSP]](https://github.com/YuanxunLu/LiveSpeechPortraits).**
 
 Code for the paper: `Exploring Loss Function and Rank Fusion for Enhanced Person Re-identification`
 
