@@ -7,22 +7,12 @@
 **Please note that our code is built based on [[TalkSHOW]](https://github.com/yhw-yhw/TalkSHOW), [[SHOW]](https://github.com/yhw-yhw/SHOW), [[LSP]](https://github.com/YuanxunLu/LiveSpeechPortraits).**
 
 ## Setup environment
-**For TalkSHOW**
-The training code was tested on `Ubuntu 18.04.5 LTS` and the visualization code was test on `Windows 10`, and it requires:
-
-* Python 3.7
-* conda3 or miniconda3
-* CUDA capable GPU (one is enough)
-
-
-
-### 1. Setup environment
-
 Clone the repo:
   ```bash
   git clone https://github.com/yhw-yhw/TalkSHOW
-  cd TalkSHOW
-  ```  
+
+**For TalkSHOW**
+
 Create conda environment:
 ```bash
 conda create --name talkshow python=3.7
